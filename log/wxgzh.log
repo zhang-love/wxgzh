@@ -1,0 +1,84 @@
+2019-08-06 16:54:30.641  INFO 8876 --- [main] com.zl.wxgzh.WxgzhApplication            : Starting WxgzhApplication on admin-PC with PID 8876 (E:\workspace\IDEA\wxgzh\target\classes started by admin in E:\workspace\IDEA\wxgzh)
+2019-08-06 16:54:30.646  INFO 8876 --- [main] com.zl.wxgzh.WxgzhApplication            : No active profile set, falling back to default profiles: default
+2019-08-06 16:54:30.991  INFO 8876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-06 16:54:30.993  INFO 8876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-06 16:54:31.014  INFO 8876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-08-06 16:54:31.169  INFO 8876 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b992ceb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-06 16:54:31.195  INFO 8876 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-06 16:54:31.295 ERROR 8876 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-06 16:54:31.419 ERROR 8876 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-06 16:54:31.460  INFO 8876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-08-06 16:54:31.467 ERROR 8876 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-06 16:54:31.496  INFO 8876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-06 16:54:31.496  INFO 8876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-06 16:54:31.549  INFO 8876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/rest]   : Initializing Spring embedded WebApplicationContext
+2019-08-06 16:54:31.549  INFO 8876 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 870 ms
+2019-08-06 16:54:31.597  INFO 8876 --- [main] com.zl.wxgzh.redis.RedisConfig           : JedisPoolÊ≥®ÂÖ•ÊàêÂäü
+2019-08-06 16:54:31.598  INFO 8876 --- [main] com.zl.wxgzh.redis.RedisConfig           : redisÂú∞ÂùÄÔºö106.14.115.159Ôºö6379
+2019-08-06 16:54:31.792  INFO 8876 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-06 16:54:32.062  WARN 8876 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-08-06 16:54:32.075  INFO 8876 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-06 16:54:32.251  INFO 8876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/rest'
+2019-08-06 16:54:32.254  INFO 8876 --- [main] com.zl.wxgzh.WxgzhApplication            : Started WxgzhApplication in 1.943 seconds (JVM running for 2.458)
+2019-08-06 16:54:57.115  INFO 9460 --- [main] com.zl.wxgzh.WxgzhApplication            : Starting WxgzhApplication on admin-PC with PID 9460 (E:\workspace\IDEA\wxgzh\target\classes started by admin in E:\workspace\IDEA\wxgzh)
+2019-08-06 16:54:57.118  INFO 9460 --- [main] com.zl.wxgzh.WxgzhApplication            : No active profile set, falling back to default profiles: default
+2019-08-06 16:54:57.525  INFO 9460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-06 16:54:57.527  INFO 9460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-06 16:54:57.548  INFO 9460 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-08-06 16:54:57.746  INFO 9460 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4609052] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-06 16:54:57.769  INFO 9460 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-06 16:54:57.883 ERROR 9460 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-06 16:54:58.031 ERROR 9460 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-06 16:54:58.080  INFO 9460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2019-08-06 16:54:58.090 ERROR 9460 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-06 16:54:58.096  INFO 9460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-06 16:54:58.096  INFO 9460 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-06 16:54:58.161  INFO 9460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/rest]   : Initializing Spring embedded WebApplicationContext
+2019-08-06 16:54:58.162  INFO 9460 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1017 ms
+2019-08-06 16:54:58.215  INFO 9460 --- [main] com.zl.wxgzh.redis.RedisConfig           : JedisPoolÊ≥®ÂÖ•ÊàêÂäü
+2019-08-06 16:54:58.215  INFO 9460 --- [main] com.zl.wxgzh.redis.RedisConfig           : redisÂú∞ÂùÄÔºö106.14.115.159Ôºö6379
+2019-08-06 16:54:58.479  INFO 9460 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-06 16:54:58.788  WARN 9460 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-08-06 16:54:58.806  INFO 9460 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-06 16:54:58.975  INFO 9460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/rest'
+2019-08-06 16:54:58.979  INFO 9460 --- [main] com.zl.wxgzh.WxgzhApplication            : Started WxgzhApplication in 2.124 seconds (JVM running for 3.411)
+2019-08-06 16:55:07.149  INFO 9460 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/rest]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-06 16:55:07.149  INFO 9460 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-06 16:55:07.154  INFO 9460 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-08-06 16:55:07.174  INFO 9460 --- [http-nio-8081-exec-2] com.zl.wxgzh.aop.AopManage               : time:2019-08-06 16:55:07 ,logStr: ,url:http://localhost:8081/rest/tt ,uri:/rest/tt ,method:POST ,params:{} ,Cookie: ,userAgent:PostmanRuntime/7.1.1
+2019-08-06 16:55:07.838  INFO 9460 --- [http-nio-8081-exec-2] com.zl.wxgzh.menu.MenuController         : ÂàõÂª∫ËèúÂçïÂ§±Ë¥• errcode:42001 errmsg:access_token expired hint: [2wiWea0709z203!]
+2019-08-06 16:55:07.884  INFO 9460 --- [http-nio-8081-exec-2] com.zl.wxgzh.aop.AopManage               : time:2019-08-06 16:55:07 ,result:false
+2019-08-06 16:55:13.613  INFO 9460 --- [http-nio-8081-exec-3] com.zl.wxgzh.aop.AopManage               : time:2019-08-06 16:55:13 ,logStr: ,url:http://localhost:8081/rest/tt ,uri:/rest/tt ,method:POST ,params:{} ,Cookie: ,userAgent:PostmanRuntime/7.1.1
+2019-08-06 16:55:40.875  INFO 9460 --- [http-nio-8081-exec-3] com.zl.wxgzh.menu.MenuController         : ÂàõÂª∫ËèúÂçïÂ§±Ë¥• errcode:42001 errmsg:access_token expired hint: [GtxHqa0731z211!]
+2019-08-06 16:55:40.921  INFO 9460 --- [http-nio-8081-exec-3] com.zl.wxgzh.aop.AopManage               : time:2019-08-06 16:55:40 ,result:false
+2019-08-06 16:55:47.807  INFO 4596 --- [main] com.zl.wxgzh.WxgzhApplicationTests       : Starting WxgzhApplicationTests on admin-PC with PID 4596 (started by admin in E:\workspace\IDEA\wxgzh)
+2019-08-06 16:55:47.808  INFO 4596 --- [main] com.zl.wxgzh.WxgzhApplicationTests       : No active profile set, falling back to default profiles: default
+2019-08-06 16:55:48.261  INFO 4596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-06 16:55:48.264  INFO 4596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-06 16:55:48.288  INFO 4596 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-08-06 16:55:48.588  INFO 4596 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1901cd6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-06 16:55:48.620  INFO 4596 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-06 16:55:48.817  INFO 4596 --- [main] com.zl.wxgzh.redis.RedisConfig           : JedisPool◊¢»Î≥…π¶
+2019-08-06 16:55:48.818  INFO 4596 --- [main] com.zl.wxgzh.redis.RedisConfig           : redisµÿ÷∑£∫106.14.115.159£∫6379
+2019-08-06 16:55:48.936 ERROR 4596 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-06 16:55:49.388  INFO 4596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-06 16:55:49.884  WARN 4596 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-08-06 16:55:49.897  INFO 4596 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-06 16:55:50.009  INFO 4596 --- [main] com.zl.wxgzh.WxgzhApplicationTests       : Started WxgzhApplicationTests in 2.426 seconds (JVM running for 3.058)
+2019-08-06 16:55:50.227  INFO 4596 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-06 17:00:01.335 ERROR 9460 --- [pool-1-thread-1] com.zl.wxgzh.redis.RedisUtil             : value sent to redis cannot be null
+2019-08-06 17:08:57.120  INFO 7020 --- [main] com.zl.wxgzh.WxgzhApplicationTests       : Starting WxgzhApplicationTests on admin-PC with PID 7020 (started by admin in E:\workspace\IDEA\wxgzh)
+2019-08-06 17:08:57.121  INFO 7020 --- [main] com.zl.wxgzh.WxgzhApplicationTests       : No active profile set, falling back to default profiles: default
+2019-08-06 17:08:57.552  INFO 7020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-06 17:08:57.555  INFO 7020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-06 17:08:57.579  INFO 7020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-08-06 17:08:57.871  INFO 7020 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b4a4b628] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-06 17:08:57.895  INFO 7020 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-08-06 17:08:58.102  INFO 7020 --- [main] com.zl.wxgzh.redis.RedisConfig           : JedisPool◊¢»Î≥…π¶
+2019-08-06 17:08:58.102  INFO 7020 --- [main] com.zl.wxgzh.redis.RedisConfig           : redisµÿ÷∑£∫106.14.115.159£∫6379
+2019-08-06 17:08:58.236 ERROR 7020 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-06 17:08:58.689  INFO 7020 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-06 17:08:59.186  WARN 7020 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2019-08-06 17:08:59.201  INFO 7020 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-08-06 17:08:59.321  INFO 7020 --- [main] com.zl.wxgzh.WxgzhApplicationTests       : Started WxgzhApplicationTests in 2.416 seconds (JVM running for 2.937)
+2019-08-06 17:08:59.474  INFO 7020 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
