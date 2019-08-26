@@ -41,7 +41,7 @@ public class AccessTokenController {
      * @param authBean
      * @return
      */
-    @RequestMapping("/auth")
+    @RequestMapping("/authEdit")
     public String auth(WechatAuthBean authBean){
         if(CheckUtils.checkSignature(authBean.getSignature(),authBean.getTimestamp(),authBean.getNonce())){
             return authBean.getEchostr();
