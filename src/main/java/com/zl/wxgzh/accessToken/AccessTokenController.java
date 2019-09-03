@@ -3,12 +3,18 @@ package com.zl.wxgzh.accessToken;
 import com.alibaba.fastjson.JSONObject;
 import com.zl.wxgzh.constants.WechatConstants;
 import com.zl.wxgzh.httpsManage.HttpsRequestUtil;
+import com.zl.wxgzh.menu.MenuUtil;
 import com.zl.wxgzh.redis.RedisUtil;
 import com.zl.wxgzh.tools.CheckUtils;
+import com.zl.wxgzh.tools.numberSwitch.NumberSwitch;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.lang.invoke.MethodType;
+import java.lang.reflect.Method;
+import java.util.Random;
 
 @RestController
 public class AccessTokenController {
@@ -18,6 +24,9 @@ public class AccessTokenController {
 
     @Resource
     RedisUtil redisUtil;
+
+    @Resource
+    MenuUtil menuUtil;
 
 //    @RequestMapping("/accessToken")
 //    public void accessToken(WechatAuthBean authBean){
@@ -42,11 +51,17 @@ public class AccessTokenController {
      * @return
      */
     @RequestMapping("/authEdit")
-    public String auth(WechatAuthBean authBean){
+    public Long auth(WechatAuthBean authBean){
         if(CheckUtils.checkSignature(authBean.getSignature(),authBean.getTimestamp(),authBean.getNonce())){
-            return authBean.getEchostr();
+            return Long.parseLong(authBean.getEchostr());
         }
-        return "error";
+        return 0L;
+    }
+
+    @RequestMapping(path = "/hello")
+    public String hello() {
+//        menuUtil.getMenu();
+        return "hello";
     }
 
     /**

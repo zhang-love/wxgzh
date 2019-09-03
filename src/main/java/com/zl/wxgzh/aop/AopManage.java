@@ -116,7 +116,7 @@ public class AopManage {
     public void doAfterReturning(Object obj) {
         StringBuilder builder = new StringBuilder();
         builder.append("time:").append(TimeUtil.getDate(System.currentTimeMillis()));
-        builder.append(" ,result:").append(obj.toString());
+        builder.append(" ,result:").append(JSONObject.toJSONString(obj));
         String logResult = builder.toString();
         redisUtil.rpush("wxgzh:log:method:result", logResult);
         logger.info(logResult);

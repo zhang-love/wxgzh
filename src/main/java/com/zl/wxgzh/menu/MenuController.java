@@ -7,6 +7,7 @@ import com.zl.wxgzh.redis.RedisUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,10 +24,10 @@ public class MenuController {
     @Resource
     RedisUtil redisUtil;
 
-    @RequestMapping("/tt")
-    public boolean creatMenu(){
+    @GetMapping("/menus")
+    public boolean menus(){
         MenuUtil menuUtil = new MenuUtil();
-        Menu menu = menuUtil.getMenu();
+        Menu menu = null;
 
         String accessToken = redisUtil.get("wxgzh:access_token");
         logger.info("access_token : " + accessToken);

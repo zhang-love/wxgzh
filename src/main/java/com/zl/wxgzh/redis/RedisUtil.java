@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.Pipeline;
 
 import javax.annotation.Resource;
 import java.util.Map;
@@ -119,6 +120,44 @@ public class RedisUtil {
             if(jedis != null) {
                 jedis.close();
             }
+        }
+        return result;
+    }
+
+    public Long hset(String key, String field, String value) {
+        return hset(key, field, value, 0);
+    }
+
+    public Long hset(String key, String field, String value, int db) {
+        Jedis jedis = null;
+        Long result = null;
+        try{
+            jedis = jedisPool.getResource();
+            jedis.select(db);
+            result = jedis.hset(key, field, value);
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+        } finally {
+            if(jedis != null) {
+                jedis.close();
+            }
+        }
+        return result;
+    }
+
+    public String hmset(String key, Map<String,String> map) {
+        return hmset(key,map,0);
+    }
+
+    public String hmset(String key, Map<String,String> map, int db) {
+        Jedis jedis = null;
+        String result = null;
+        try {
+            jedis = jedisPool.getResource();
+            jedis.select(db);
+            result = jedis.hmset(key, map);
+        } catch (Exception e) {
+            logger.error(e.getMessage());
         }
         return result;
     }

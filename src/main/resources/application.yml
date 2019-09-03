@@ -3,8 +3,8 @@ server:
   servlet:
     context-path: /rest
 wechat:
-  appid: wxb0ea561ede9f99f8
-  appsecret: 43fb8393bbca2c96f7bfeee58e17c6da
+  appid: wx3e1f21cfe533fc0d
+  appsecret: 939ed159b421e84ceeb46fd89de72a91
   token: zhanglun
   access-token-url: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
   menu-create-url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=ACCESS_TOKEN
